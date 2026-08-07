@@ -1,5 +1,9 @@
 # Skill: ventura.toolkit — LOOP Skill Engine / Deterministic Replay
 
+![MIT](https://img.shields.io/github/license/chamseddinehiddoud/ventura.toolkit)
+![stars](https://img.shields.io/github/stars/chamseddinehiddoud/ventura.toolkit)
+![forks](https://img.shields.io/github/forks/chamseddinehiddoud/ventura.toolkit)
+
 Skill de construção e iteração de interfaces (UI) usando **execução
 determinística**: explore a feature uma vez, compile o design em `ui.md`,
 replique a implementação do componente com ~zero tokens, regenere quando os
