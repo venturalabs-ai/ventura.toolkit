@@ -1,52 +1,43 @@
 # ventura.toolkit
 
-![MIT](https://img.shields.io/github/license/chamseddinehiddoud/ventura.toolkit)
-![stars](https://img.shields.io/github/stars/chamseddinehiddoud/ventura.toolkit)
-![forks](https://img.shields.io/github/forks/chamseddinehiddoud/ventura.toolkit)
+![Status](https://img.shields.io/badge/status-curation%20%2B%20skill-blueviolet)
+![License](https://img.shields.io/github/license/venturalabs-ai/ventura.toolkit)
+![Stars](https://img.shields.io/github/stars/venturalabs-ai/ventura.toolkit)
 
-Versão **Ventura** do espírito do *React* — toolkit de pensamento em UI:
-componentização, estado, renderização e composição aplicados de forma
-pragmática, com uma skill de replay determinístico para construir e iterar
-interfaces sem retrabalho.
+**Toolkit conceitual para componentização, estado, renderização, composição, performance e acessibilidade em interfaces.**
 
-> **Curadoria original** — este repositório não copia o código-fonte do React;
-> ele sintetiza os princípios de design de UI em um kit de trabalho próprio
-> (componentização, estado, ciclo de render, composição e performance).
+## Classificação
 
-## O que é
+**Curation / Skill Repository.** Este projeto não é React, não contém o código-fonte do React e não é afiliado à Meta.
 
-Um toolkit de decisão e construção de interfaces: padrões, modelos mentais e
-receitas de trabalho organizados em camadas, aplicáveis a qualquer stack
-(React, Vue, Svelte, web components ou vanilla).
+## Referência upstream
 
-## Camadas do toolkit
+Inspirado em princípios amplamente usados por React e outros frameworks modernos de UI, mas com síntese e método próprios.
 
-| Camada | Foco | Decisões típicas |
-|---|---|---|
-| **Componentes** | o que vira componente, props, contratos | granularidade, reuso, naming |
-| **Estado** | onde mora o estado, atualização, sincronia | local vs global, derivado |
-| **Renderização** | ciclo de render, chaves, reconciliação | listas, idempotência |
-| **Composição** | layout de componentes, children, slots | hierarquia, separação |
-| **Performance** | memoização, carregamento, bundle | quando otimizar (profile antes) |
-| **Acessibilidade** | semântica, teclado, contraste | padrões ARIA, testes |
+## Escopo
 
-## Princípios de design
+- desenho de componentes;
+- contratos e props;
+- estado mínimo e derivado;
+- renderização e identidade;
+- composição;
+- performance orientada por medição;
+- acessibilidade.
 
-1. **Composição sobre herança** — interfaces crescem por composição.
-2. **Estado mínimo** — derive o que puder; só guarde o essencial.
-3. **Contratos claros** — props/tipos definem o contrato de cada componente.
-4. **Profile antes de otimizar** — medir, depois memoizar.
-5. **Acessibilidade é requisito** — não feature.
+## Método Ventura
 
-## Como usar (com a skill)
+`EXPLORE → COMPILE → REPLAY → REGENERATE`
 
-```text
-1. Modo EXPLORE  — defina a tela/feature e os requisitos (uma vez)
-2. Modo COMPILE  — registre o design em ui.md: componentes, estado, contratos
-3. Modo REPLAY   — implemente o componente do dia: props, estado, teste
-4. Modo REGENERATE — requisitos mudaram → regenere o design
-```
+A arquitetura da interface é registrada antes da implementação para reduzir decisões repetidas e manter contratos claros.
+
+## Princípios
+
+- composição sobre herança;
+- estado mínimo;
+- contratos explícitos;
+- medir antes de otimizar;
+- acessibilidade como requisito.
 
 ## Licença
 
-MIT License — Copyright (c) 2026 Wemerson Mota de Oliveira.
+Consulte [LICENSE](LICENSE). Frameworks citados mantêm suas próprias licenças e marcas.
