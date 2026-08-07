@@ -1,5 +1,9 @@
 # ventura.toolkit
 
+![MIT](https://img.shields.io/github/license/chamseddinehiddoud/ventura.toolkit)
+![stars](https://img.shields.io/github/stars/chamseddinehiddoud/ventura.toolkit)
+![forks](https://img.shields.io/github/forks/chamseddinehiddoud/ventura.toolkit)
+
 Versão **Ventura** do espírito do *React* — toolkit de pensamento em UI:
 componentização, estado, renderização e composição aplicados de forma
 pragmática, com uma skill de replay determinístico para construir e iterar
